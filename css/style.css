@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #F6F6F6;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  background: #1E6EC4;
+  color: #FEFEFF;
+  padding: 16px 70px;
+  border-radius: 100vh;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 0.75rem;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: #393E40;
+}
+
+.top-img {
+  width: 200px;
+  margin-bottom: 15px;
+}
